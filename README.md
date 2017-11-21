@@ -53,3 +53,32 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+### Improviemnte made
+
+#### Optimize PageSpeed Insights
+
+* Mobile Score: 94
+
+![Mobile Score](./mobile_score.png?raw=true)
+
+
+* Desktop Score: 94
+![Desktop Score](./desk_score.png?raw=true)
+
+##### Improvments:
+
+1. minify css and js files
+2. separate screen and print css in other files
+3. Resize all images
+4. remove unnecessary google fonts in HTML
+5. adding tag assync tag for no-critical js file
+
+#### Optimize PageSpeed Insights
+
+##### Improvments:
+
+1. Adding css tag will-change
+2. Refactor changePizzaSizes function and removing unecessary work
+3. remove tag getElement from inside pizzas page load loop
+4. Refactor updatePositions function
